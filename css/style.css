@@ -1,0 +1,29 @@
+.container{
+    border: 1px dashed black;
+    min-height: 100px;
+}
+
+.container-fluid{
+    border: 1px dashed darkorange;
+    min-height: 100px;
+}
+
+.row{
+    border: 1px solid darkorchid;
+    min-height: 90px;
+}
+
+[class^="col"]{
+    border: 1px solid deepskyblue;
+    min-height: 70px;
+}
+
+#logo{
+    background-color: black;
+    height: 50px;
+}
+
+nav{
+    height: 80px;
+}
+
