@@ -1,16 +1,16 @@
 .container{
     border: 1px dashed black;
-    min-height: 100px;
+  
 }
 
 .container-fluid{
     border: 1px dashed darkorange;
-    min-height: 100px;
+   
 }
 
 .row{
     border: 1px solid darkorchid;
-    min-height: 90px;
+    
 }
 
 [class^="col"]{
@@ -24,13 +24,13 @@
 
 
 
-#logo{
+#header-logo{
     background-color: black;
     height: 30px;
     position: relative;
 }
 
-.img-logo{
+.sony-logo{
     width: 100px;
     position: absolute;
     right: 5px;
@@ -54,15 +54,14 @@
 }
 
 
-.row img{
-    width: 85px;
+.row #play-logo{
+width: 85px;
 vertical-align: middle;
-
 }
 
 #nav-menu{
-    min-height: 80px;
-    font-size: 15px;
+    height: 70px;
+    font-size: 13px;
     font-weight: 300;
    
 }
@@ -90,3 +89,47 @@ vertical-align: middle;
     }
 } */
 
+/* JUMBOTRON REVIVAL */
+
+
+
+#jumbotron{
+    min-height: 500px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.logo-returnal{
+    width: 100%;
+    object-fit: cover;
+}
+.buttom{
+    border-radius: 20px; 
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.orange-buttom{
+    background-color: rgb(219, 59, 1);
+    
+}
+
+/* SEZIONE CARTE ANIMATE DI GAMES  */
+
+#games{
+    margin-top: 30px;
+}
+
+.rounded {
+    border-radius: .55rem!important;
+}
+
+.rounded:hover{
+    border: 3px solid rgb(0, 89, 255);
+    border-radius:10px ;
+    padding: 3px;
+    transform:translateY(-25px);
+}
