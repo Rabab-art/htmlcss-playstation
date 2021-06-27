@@ -172,6 +172,7 @@ vertical-align: middle;
     font-size: 20px;
 }
 
+/* INSERIMENTO IMMAGINI ACCESSORI */
 
 .fitting{
     opacity:0.4 ;
@@ -186,4 +187,30 @@ vertical-align: middle;
 .fitting-active{
     border-bottom:2px solid rgb(7, 89, 243);
     text-align: center;
+}
+
+/* SEZIONE JUMBOTRONE IT TAKE */
+
+#second-jumbotron{
+    margin-top: 30px;
+    min-height: 500px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.logo-take{
+    width: 200px;
+    object-fit: cover;
+   
+}
+
+.it-takes {
+    padding-left: 20px;
+}
+
+.it-takes p{
+margin-top:20px ;
+font-size: 15px;
 }
