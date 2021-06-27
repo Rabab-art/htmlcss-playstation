@@ -128,8 +128,62 @@ vertical-align: middle;
 }
 
 .rounded:hover{
-    border: 3px solid rgb(0, 89, 255);
+    border: 3px solid rgb(7, 89, 243);
     border-radius:10px ;
     padding: 3px;
     transform:translateY(-25px);
+}
+
+/* SEZIONE PLAYSTATION 5 */
+
+#play-station5{
+    margin-top: 30px;    
+}
+.titol{
+    text-align: center;
+}
+
+#blue{
+    color: rgb(7, 89, 243);
+    font-weight: 500;
+}
+
+#grey{
+    padding: 10px;
+    color: grey;
+    font-weight: 500;
+}
+
+.buttom-blue{
+    border-radius: 20px;
+    padding: 2px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    background-color:rgb(7, 89, 243);
+    color:white;
+}
+
+.box-PS5{
+    line-height: 2.5em;
+}
+
+#text{
+    font-size: 20px;
+}
+
+
+.fitting{
+    opacity:0.4 ;
+    text-align: center;
+}
+
+.fitting:hover{
+    opacity: 1;
+    border-bottom:2px solid rgb(7, 89, 243);
+}
+
+.fitting-active{
+    border-bottom:2px solid rgb(7, 89, 243);
+    text-align: center;
 }
