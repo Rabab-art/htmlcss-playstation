@@ -15,39 +15,44 @@
 
 <body>
     <section id="navbar" class="">
-        <div class=".container-fluid">
-            <div id="header-logo" class=""><img class="sony-logo" src="./img/sony_logo.svg" alt=""></div>
-            <nav>
-                <div class="row " id="nav-menu">
-                    <img id="play-logo" src="./img/play_logo.svg" alt="logo-play">
-                    <div class=" col-md-6 nav-menu d-flex align-items-center">
-                        <ul class="">
-                            <li> <a href="">Giochi <i class="fas fa-angle-down"></i></a> </li>
-                            <li> <a href="">Hardware <i class="fas fa-angle-down"></i></a></li>
-                            <li> <a href="">Servizi <i class="fas fa-angle-down"></i></a> </li>
-                            <li> <a href="">Novità <i class="fas fa-angle-down"></i></a> </li>
-                            <li> <a href="">Fai acquisti <i class="fas fa-angle-down"></i></a></li>
-                            <li> <a href="">Supporto <i class="fas fa-angle-down"></i></a> </li>
-                        </ul>
-                    </div>
 
-                    <div class="col col-md-5 my-ps d-flex justify-content-end">
-                        <ul>
-                            <li>
-                                <a href="">My PlayStation <i class="fas fa-angle-down"></i></a>
-                            </li>
-                            <li> <a class="sign-in" href=""> Accedi </a> </li>
-                            <li> <a href=""><i class="fas fa-search"></i></a> </li>
-                        </ul>
-                    </div>
+
+        <nav class="container-fluid">
+            <div class="row " id="nav-menu">
+                <div id="header-logo" class="col">
+                    <img class="sony-logo" src="./img/sony_logo.svg" alt="">
                 </div>
-            </nav>
-        </div>
+            </div>
+            <div class="row d-flex  justify-content-between">
 
+                <div class=" d-md-flex col-md-6 nav-menu  align-items-center">
+                    <img id="play-logo" class="" src="./img/play_logo.svg" alt="logo-play">
+                    <ul class="d-none d-md-flex align-items-center ">
 
+                        <li> <a href="">Giochi </li><i class="fas fa-angle-down"></i></a>
+                        <li> <a href="">Hardware </li><i class="fas fa-angle-down"></i></a>
+                        <li> <a href="">Servizi </li><i class="fas fa-angle-down"></i></a>
+                        <li> <a href="">Novità</li><i class="fas fa-angle-down"></i></a>
+                        <li> <a href="">Fai acquisti </li><i class="fas fa-angle-down"></i></a>
+                        <li> <a href="">Supporto</li><i class="fas fa-angle-down"></i></a>
+                    </ul>
+                </div>
 
+                <div class=" col-md-5 d-md-flex my-ps justify-content-end">
+                    <ul class=" d-md-flex align-items-center ">
+                        <li class="d-flex justify-content-end align-items-center d-md-none">
+                            <i class="fas fa-bars "></i>
+                        </li>
+                        <li class="d-none d-md-flex">
+                            <a href="">My PlayStation <i class="fas fa-angle-down"></i></a>
+                        </li>
+                        <li class="d-none d-md-flex"> <a class=" sign-in grey" href=""> Accedi </a> </li>
+                        </li><i class=" d-none d-md-flex fas fa-search"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-        </div>
 
 
 
@@ -74,15 +79,15 @@
     <section id="games" class="container ">
 
         <div class="row g-1">
-            <div class="col-6 col-md-4 col-lg-2 p-1"> <img class="img-fluid rounded rounded-card"
+            <div class="col-6 col-md-4 col-lg-2 "> <img class="img-fluid rounded rounded-card"
                     src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-            <div class="col-6 col-md-4 col-lg-2 p-1"> <img class="img-fluid rounded rounded-card"
+            <div class="col-6 col-md-4 col-lg-2 "> <img class="img-fluid rounded rounded-card"
                     src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
-            <div class="col-6 col-md-4 col-lg-2 p-1"> <img class="img-fluid rounded rounded-card"
+            <div class="col-6 col-md-4 col-lg-2"> <img class="img-fluid rounded rounded-card"
                     src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-            <div class="col-6 col-md-4 col-lg-2 p-1"> <img class="img-fluid rounded rounded-card"
+            <div class="col-6 col-md-4 col-lg-2"> <img class="img-fluid rounded rounded-card"
                     src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
-            <div class="col-6 col-md-4 col-lg-2 p-1"> <img class="img-fluid rounded rounded-card"
+            <div class="col-6 col-md-4 col-lg-2"> <img class="img-fluid rounded rounded-card"
                     src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
             <div class="col-6 col-md-4 col-lg-2 p-1"> <img class="img-fluid rounded rounded-card"
                     src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
@@ -104,7 +109,7 @@
                 <div class="p-4  box-PS5">
                     <h2>Console PlayStation 5</h2>
                     <div id="text">Sperimenta la nuova generazione di incredibili giochi PlayStation.</div>
-                    <div class="buttom-blue">
+                    <div class="buttom-blue blue">
                         <a href="">Maggior Informazioni</a>
                     </div>
                 </div>
@@ -209,16 +214,42 @@
         </div>
     </section>
 
+
+
+
     <section id="explore" class="container-fluid">
-        <div class="p-3"> PLYSTATION 4</div>
+        <div class="row p-3">
+            <div class="col titol">
+                <h1 id="titol-PS5"> Esplora Play Station&reg; 4</h1> <br>
+                <div id="grey">Giochi incredibili e intrattenimento senza fine. </br> Non c'è stato momento miglior eper
+                    giocare sulla tua PS4.
+                </div>
 
-
+            </div>
+        </div>
 
 
         <div class="row">
-            <div class="col-12  col-md-4 "></div>
-            <div class="col-12 col-md-4 "></div>
-            <div class="col-12 col-md-4 "></div>
+            <div class="col-12  col-md-4 "><img class="img-fluid" src="./img/ps4-slim-homepage-image-block.jpg" alt="">
+                <h5>PlayStation 4</h5>
+                <div>Giochi incredibili live su PS4, con 1 TB di spazio
+                    di archiviazione.
+                </div>
+                <div class="buttom-blue blue"> <a href=""> Scopri di più</a></div>
+            </div>
+            <div class="col-12 col-md-4 "> <img class="img-fluid" src="./img/double11-202010-tw-psvr.jpg" alt="">
+                <h5>PlatStation VR</h5>
+                <div>Oltre 5oo titoli ed esperienze di gioco. <br>
+                    Scoprili tutti.
+                </div>
+                <div class="buttom-blue blue"> <a href=""> Scopri di più</a></div>
+            </div>
+
+            <div class="col-12 col-md-4 "> <img class="img-fluid" src="./img/dualshock-4-listing-thumb.jpg" alt="">
+                <h5>Accessori</h5>
+                <div> Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</div>
+                <div class="buttom-blue blue"> <a href=""> Scopri di più</a></div>
+            </div>
 
 
         </div>

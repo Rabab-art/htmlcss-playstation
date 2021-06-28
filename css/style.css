@@ -15,7 +15,6 @@
 
 [class^="col"]{
     border: 1px solid deepskyblue;
-    min-height: 70px;
 }
 /* ************************** */
 
@@ -37,20 +36,20 @@
     top: 5px;
 }
 
-.nav{
-        height: 70px;
-        
-    }
 
 .nav-menu ul li, a,
 .my-ps ul li, a{
   display: inline-block;
     list-style-type: none;
     text-decoration: none;
-    padding: 10px;
     color: black;
-    font-weight: 500;
-    
+    font-weight: 500;   
+}
+
+.nav-menu a,
+.my-ps a{
+    padding: 5px;
+    margin-left: 20px;
 }
 
 
@@ -60,22 +59,37 @@ vertical-align: middle;
 }
 
 #nav-menu{
-    height: 70px;
-    font-size: 13px;
+   
+    font-size: 12px;
     font-weight: 300;
    
 }
 
 .sign-in{
     border: 1px solid grey;
+    border: 3px solid transparent;
     border-radius: 20px;
-    background-color:rgb(53, 52, 52);
-    padding: 10px;
+    padding: 5px;
     width: 90px;
     color: white;
     text-align: center;
     vertical-align: middle;
 }
+
+.sign-in a{
+    color: white;
+}
+
+.grey{
+    background-color:rgb(53, 52, 52);
+}
+
+.grey:hover{
+    opacity: 0.7;
+    border: 3px solid rgb(129, 129, 129);
+    color: white;
+}
+
 
 .my-ps{
     margin-right: 5px;
@@ -106,7 +120,8 @@ vertical-align: middle;
 }
 .buttom{
     border-radius: 20px; 
-    padding: 3px;
+    border: 3px solid transparent;
+    padding: 7px;
     width: 170px;
     text-align: center;
     vertical-align: middle;
@@ -124,7 +139,7 @@ vertical-align: middle;
 .orange-buttom:hover{
     opacity: 0.7;
     border: 3px solid rgb(238, 138, 101);
-    padding: 0;
+    
 }
 
 /* SEZIONE CARTE ANIMATE DI GAMES  */
@@ -135,6 +150,7 @@ vertical-align: middle;
 
 .rounded-card {
     border-radius: .55rem!important;
+    border: 3px solid transparent;
 }
 
 .rounded-card:hover{
@@ -162,21 +178,32 @@ vertical-align: middle;
     padding: 10px;
     color: grey;
     font-weight: 500;
+    font-size: 18px;
 }
 
-.buttom-blue{
-    border-radius: 20px;
-    padding: 2px;
-    width: 200px;
+.buttom-blue {
+    border: 3px solid transparent;
+    border-radius: 25px;
+    width: 190px;
     text-align: center;
     vertical-align: middle;
-    background-color:rgb(7, 89, 243);
-    color:white;
+    margin-top: 10px;  
+    padding: 7px;
 }
 
-.box-PS5{
-    line-height: 2.5em;
+.blue{
+    background-color:rgb(7, 89, 243);
 }
+
+.buttom-blue a{
+    color: white;
+}
+.blue:hover{
+    opacity: 0.8;
+    border: 3px solid rgb(107, 149, 240);
+   
+}
+
 
 #text{
     font-size: 20px;
@@ -225,6 +252,8 @@ margin-top:20px ;
 font-size: 15px;
 }
 
+/* SEZIONE NUOVE USCITE */
+
 #new{
     background-color: rgb(39, 39, 39);
     color: white;
@@ -232,4 +261,12 @@ font-size: 15px;
 
 .rounded-new{
     border-radius: .65rem!important;
+}
+
+
+#explore .buttom-blue{
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
 }
