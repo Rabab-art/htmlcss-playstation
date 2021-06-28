@@ -74,6 +74,7 @@ vertical-align: middle;
     color: white;
     text-align: center;
     vertical-align: middle;
+    margin-right: 10px;
 }
 
 .sign-in a{
@@ -93,6 +94,11 @@ vertical-align: middle;
 
 .my-ps{
     margin-right: 5px;
+}
+
+.fa-bars {
+    font-size: 40px;
+    margin: 15px;
 }
 
 /* @media screen (min-width:576px) {
@@ -269,4 +275,56 @@ font-size: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0;
+}
+
+/* SEZIONE PLAYSTATION PLUS */
+
+.plus{
+    background-color: rgb(221, 232, 238);
+    width: 210px;
+    margin-top: 20px;
+}
+
+.plus a{
+    color: rgb(7, 89, 243);
+}
+
+#PSPLUS{
+    background-color: rgb(192, 192, 192);   
+}
+
+.logo-plus{
+    margin-bottom: 15px;
+}
+.ps-plus h6{
+font-size: 20px;
+}
+
+/* DISCOUNT  */
+
+#discount{
+    margin-bottom: 30px;
+}
+
+/* PS-NOW */
+
+#ps-now{
+    color: white;
+    background-color: rgb(3, 3, 110);
+
+}
+
+.logo-now{
+    margin-bottom: 25px;
+}
+
+.now{
+    width : 220px;
+    background-color: cornsilk;
+    margin-top: 25px;
+}
+
+.now a{
+    color: black;
+    
 }
