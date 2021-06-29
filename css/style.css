@@ -1,22 +1,4 @@
-.container{
-    border: 1px dashed black;
-  
-}
 
-.container-fluid{
-    border: 1px dashed darkorange;
-   
-}
-
-.row{
-    border: 1px solid darkorchid;
-    
-}
-
-[class^="col"]{
-    border: 1px solid deepskyblue;
-}
-/* ************************** */
 
 /* NAVBAR CON BARRA LOGO */
 
@@ -45,6 +27,13 @@
     color: black;
     font-weight: 500;   
 }
+.nav-menu a:hover{
+    color: rgb(7, 89, 243);
+}
+.my-ps a:hover{
+    color: rgb(7, 89, 243);
+}
+
 
 .nav-menu a,
 .my-ps a{
@@ -85,12 +74,13 @@ vertical-align: middle;
     background-color:rgb(53, 52, 52);
 }
 
+
+
 .grey:hover{
-    opacity: 0.7;
-    border: 3px solid rgb(129, 129, 129);
+    border-color: #e1e4e6;
+    box-shadow: 0px 0px 3px #111111;
     color: white;
 }
-
 
 .my-ps{
     margin-right: 5px;
@@ -101,13 +91,6 @@ vertical-align: middle;
     margin: 15px;
 }
 
-/* @media screen (min-width:576px) {
-
-    ul{
-        display: none;
-    displa
-    }
-} */
 
 /* JUMBOTRON REVIVAL */
 
@@ -143,10 +126,10 @@ vertical-align: middle;
 }
 
 .orange-buttom:hover{
-    opacity: 0.7;
-    border: 3px solid rgb(238, 138, 101);
-    
+    border-color: #202224;
+    box-shadow: 0px 0px 3px #eea975;
 }
+
 
 /* SEZIONE CARTE ANIMATE DI GAMES  */
 
@@ -158,9 +141,11 @@ vertical-align: middle;
     border-radius: .55rem!important;
     border: 3px solid transparent;
 }
+.active{
+    border: 3px solid rgb(7, 89, 243);
+}
 
 .rounded-card:hover{
-    border: 3px solid rgb(7, 89, 243);
     border-radius:10px ;
     padding: 3px;
     transform:translateY(-10px);
@@ -205,9 +190,14 @@ vertical-align: middle;
     color: white;
 }
 .blue:hover{
-    opacity: 0.8;
-    border: 3px solid rgb(107, 149, 240);
+    /* opacity: 0.8;
+    border: 3px solid rgb(107, 149, 240); */
    
+}
+
+.blue:hover{
+    border-color: #f1f6fa;
+    box-shadow: 0px 0px 3px #0b38f0;
 }
 
 
@@ -258,6 +248,12 @@ margin-top:20px ;
 font-size: 15px;
 }
 
+/* SEZIONE PS4 */
+
+#ps4 div{
+    font-size: 20px;
+}
+
 /* SEZIONE NUOVE USCITE */
 
 #new{
@@ -290,7 +286,8 @@ font-size: 15px;
 }
 
 #PSPLUS{
-    background-color: rgb(192, 192, 192);   
+    background-color: rgb(192, 192, 192); 
+    margin-top: 20px;  
 }
 
 .logo-plus{
@@ -299,7 +296,10 @@ font-size: 15px;
 .ps-plus h6{
 font-size: 20px;
 }
-
+.plus:hover{
+    border-color: #f1f6fa;
+    box-shadow: 0px 0px 3px #a2a2a3;
+}
 /* DISCOUNT  */
 
 #discount{
@@ -327,4 +327,36 @@ font-size: 20px;
 .now a{
     color: black;
     
+}
+
+.now:hover{
+    border-color: #5249fa;
+    box-shadow: 0px 0px 3px #f3f3f7;
+}
+
+
+#social{
+    text-align: center;
+    margin-top: 40px;
+}
+#social h2{
+    margin-bottom: 40px;
+}
+
+
+/* FOOTER */
+
+#footer{
+    background-color: rgb(10, 48, 175);
+    color: white;
+}
+
+.logo-footer{
+    width: 150px;
+    margin-bottom: 15px;
+
+}
+
+#footer li{
+    list-style-type: none;
 }
